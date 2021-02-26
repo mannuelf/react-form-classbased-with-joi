@@ -29,6 +29,7 @@ class Form extends Component {
     } else {
       this.setState({
         data: { username: username, password: password },
+        errors: {},
       });
     }
   };
